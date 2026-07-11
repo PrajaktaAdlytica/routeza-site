@@ -1,0 +1,18 @@
+<svg width="760" height="220" viewBox="0 0 760 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="220" rx="36" fill="#F7FBF7"/>
+  <rect x="28" y="38" width="144" height="144" rx="36" fill="#0B2E2B"/>
+  <path d="M60 86H92" fill="none" stroke="#6F8580" stroke-width="11" stroke-linecap="round"/>
+  <path d="M108 86H140" fill="none" stroke="#6F8580" stroke-width="11" stroke-linecap="round"/>
+  <path d="M60 141H87" fill="none" stroke="#6F8580" stroke-width="11" stroke-linecap="round"/>
+  <path d="M113 141H140" fill="none" stroke="#6F8580" stroke-width="11" stroke-linecap="round"/>
+  <path d="M60 112H84L100 96L116 112H140" fill="none" stroke="#43D6B2" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="60" cy="86" r="8" fill="#F7FBF7"/>
+  <circle cx="140" cy="86" r="8" fill="#F7FBF7"/>
+  <circle cx="60" cy="112" r="8" fill="#F7FBF7"/>
+  <circle cx="100" cy="96" r="9.5" fill="#E9FF6A"/>
+  <circle cx="140" cy="112" r="8" fill="#F7FBF7"/>
+  <circle cx="60" cy="141" r="8" fill="#F7FBF7"/>
+  <circle cx="140" cy="141" r="8" fill="#F7FBF7"/>
+  <text x="212" y="112" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="0">Roviaza</text>
+  <text x="214" y="148" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500" letter-spacing="0">Adaptive route operations for real-world fleet changes</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg width="1560" height="760" viewBox="0 0 1560 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1560" height="760" rx="40" fill="#EEF3EE"/>
+  <text x="72" y="92" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Roviaza Logo Directions</text>
+  <text x="72" y="130" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="500">Three fresh directions with different brand logic, not variants of the same mark.</text>
+
+  <rect x="56" y="180" width="456" height="520" rx="28" fill="#F7FBF7"/>
+  <rect x="94" y="230" width="150" height="150" rx="36" fill="#0B2E2B"/>
+  <path d="M132 278H159" stroke="#6F8580" stroke-width="8" stroke-linecap="round"/>
+  <path d="M179 278H206" stroke="#6F8580" stroke-width="8" stroke-linecap="round"/>
+  <path d="M132 332H153" stroke="#6F8580" stroke-width="8" stroke-linecap="round"/>
+  <path d="M185 332H206" stroke="#6F8580" stroke-width="8" stroke-linecap="round"/>
+  <path d="M132 305H151L169 286L187 305H206" stroke="#43D6B2" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="132" cy="278" r="7" fill="#F7FBF7"/>
+  <circle cx="206" cy="278" r="7" fill="#F7FBF7"/>
+  <circle cx="132" cy="305" r="7" fill="#F7FBF7"/>
+  <circle cx="169" cy="286" r="8" fill="#E9FF6A"/>
+  <circle cx="206" cy="305" r="7" fill="#F7FBF7"/>
+  <circle cx="132" cy="332" r="7" fill="#F7FBF7"/>
+  <circle cx="206" cy="332" r="7" fill="#F7FBF7"/>
+  <text x="270" y="298" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Roviaza</text>
+  <text x="96" y="434" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">1. Signal Grid</text>
+  <text x="96" y="472" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">Feels operational and structured.</text>
+  <text x="96" y="502" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">Best if you want route intelligence</text>
+  <text x="96" y="532" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">without looking playful.</text>
+
+  <rect x="552" y="180" width="456" height="520" rx="28" fill="#F7FBF7"/>
+  <rect x="590" y="230" width="150" height="150" rx="36" fill="#0B2E2B"/>
+  <path d="M620 320C620 357 650 372 680 372C713 372 744 353 744 322C744 297 728 284 706 276C727 268 739 251 739 232C739 201 710 196 680 196C648 196 621 213 621 244" stroke="#F7FBF7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M620 320C620 292 644 274 672 274H701" stroke="#43D6B2" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="621" cy="244" r="6.5" fill="#F7FBF7"/>
+  <circle cx="620" cy="320" r="6.5" fill="#F7FBF7"/>
+  <circle cx="680" cy="196" r="6.5" fill="#F7FBF7"/>
+  <circle cx="744" cy="322" r="6.5" fill="#F7FBF7"/>
+  <circle cx="701" cy="274" r="8" fill="#E9FF6A"/>
+  <text x="766" y="298" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Roviaza</text>
+  <text x="592" y="434" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">2. Flow Loop</text>
+  <text x="592" y="472" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">Feels more premium and fluid.</text>
+  <text x="592" y="502" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">Best if you want motion and</text>
+  <text x="592" y="532" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">adaptability without a literal map.</text>
+
+  <rect x="1048" y="180" width="456" height="520" rx="28" fill="#F7FBF7"/>
+  <rect x="1086" y="230" width="150" height="150" rx="36" fill="#0B2E2B"/>
+  <path d="M1126 278H1196" stroke="#F7FBF7" stroke-width="8.5" stroke-linecap="round"/>
+  <path d="M1126 332H1196" stroke="#F7FBF7" stroke-width="8.5" stroke-linecap="round"/>
+  <path d="M1132 305H1153L1170 283L1190 283" stroke="#43D6B2" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1132 305H1153L1170 327L1190 327" stroke="#43D6B2" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1126" cy="278" r="6.5" fill="#F7FBF7"/>
+  <circle cx="1196" cy="278" r="6.5" fill="#F7FBF7"/>
+  <circle cx="1126" cy="332" r="6.5" fill="#F7FBF7"/>
+  <circle cx="1196" cy="332" r="6.5" fill="#F7FBF7"/>
+  <circle cx="1132" cy="305" r="7.5" fill="#F7FBF7"/>
+  <circle cx="1190" cy="283" r="7.5" fill="#E9FF6A"/>
+  <circle cx="1190" cy="327" r="7.5" fill="#E9FF6A"/>
+  <text x="1262" y="298" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="700">Roviaza</text>
+  <text x="1088" y="434" fill="#0B1715" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">3. Monoline Emblem</text>
+  <text x="1088" y="472" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">Feels calmer and more SaaS.</text>
+  <text x="1088" y="502" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">Best if you want an ownable symbol</text>
+  <text x="1088" y="532" fill="#5B6B66" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500">with less logistics-diagram energy.</text>
+</svg>

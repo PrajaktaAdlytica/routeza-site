@@ -35,7 +35,7 @@ import { Link, NavLink, Route as AppRoute, Routes, useLocation } from "react-rou
 const products = [
   {
     slug: "plan",
-    name: "Routeza Plan",
+    name: "Roviaza Plan",
     eyebrow: "Daily route planning",
     headline: "Build feasible routes before the first van leaves.",
     summary:
@@ -53,7 +53,7 @@ const products = [
   },
   {
     slug: "live",
-    name: "Routeza Live",
+    name: "Roviaza Live",
     eyebrow: "Operational visibility",
     headline: "See every route, exception, and ETA as the day unfolds.",
     summary:
@@ -71,7 +71,7 @@ const products = [
   },
   {
     slug: "replan",
-    name: "Routeza Replan",
+    name: "Roviaza Replan",
     eyebrow: "Midday recovery",
     headline: "Replan fast when the route breaks in real life.",
     summary:
@@ -97,7 +97,7 @@ const industries = [
 ];
 
 const productNav = products.map((item) => ({
-  label: item.name.replace("Routeza ", ""),
+  label: item.name.replace("Roviaza ", ""),
   to: `/products/${item.slug}`,
 }));
 
@@ -106,7 +106,7 @@ const trustedCompanies = ["NorthGrid Logistics", "PolarFresh Chain", "Serva Flee
 const testimonials = [
   {
     quote:
-      "Routeza gave our dispatch team one place to plan in the morning and recover routes during the day without losing cold-chain priorities.",
+      "Roviaza gave our dispatch team one place to plan in the morning and recover routes during the day without losing cold-chain priorities.",
     name: "Agnieszka Nowak",
     role: "Operations Director, PolarFresh Chain",
   },
@@ -130,7 +130,7 @@ const pricingPlans = [
     price: "€490",
     period: "/month",
     description: "For smaller delivery and field teams that need structured daily route planning.",
-    features: ["Routeza Plan workspace", "Capacity and service-window rules", "Planner review tools", "Email support"],
+    features: ["Roviaza Plan workspace", "Capacity and service-window rules", "Planner review tools", "Email support"],
   },
   {
     name: "Operate",
@@ -153,9 +153,9 @@ const footerGroups = [
   {
     title: "Products",
     links: [
-      ["Routeza Plan", "/products/plan"],
-      ["Routeza Live", "/products/live"],
-      ["Routeza Replan", "/products/replan"],
+      ["Roviaza Plan", "/products/plan"],
+      ["Roviaza Live", "/products/live"],
+      ["Roviaza Replan", "/products/replan"],
       ["Request demo", "/demo"],
     ],
   },
@@ -173,16 +173,16 @@ const footerGroups = [
     links: [
       ["Platform overview", "/#platform"],
       ["Trusted by", "/#trusted-by"],
-      ["Support", "mailto:support@routeza.io"],
-      ["Sales", "mailto:sales@routeza.io"],
+      ["Support", "mailto:support@roviaza.com"],
+      ["Sales", "mailto:sales@roviaza.com"],
     ],
   },
 ];
 
 const socialLinks = [
-  ["LinkedIn", "https://www.linkedin.com/company/routeza-io", "linkedin"],
-  ["Instagram", "https://www.instagram.com/routeza.io", "instagram"],
-  ["YouTube", "https://www.youtube.com/@routezaio", "youtube"],
+  ["LinkedIn", "https://www.linkedin.com/company/roviaza", "linkedin"],
+  ["Instagram", "https://www.instagram.com/roviaza.com", "instagram"],
+  ["YouTube", "https://www.youtube.com/@roviaza", "youtube"],
 ];
 
 function App() {
@@ -230,9 +230,9 @@ function Navigation() {
 
   return (
     <header className="site-header">
-      <Link className="brand" to="/" aria-label="Routeza home">
+      <Link className="brand" to="/" aria-label="Roviaza home">
         <LogoMark />
-        <span>Routeza</span>
+        <span>Roviaza</span>
       </Link>
 
       <nav className="desktop-nav" aria-label="Primary navigation">
@@ -307,7 +307,7 @@ function HomePage() {
             Route planning that keeps moving after the day changes.
           </h1>
           <p>
-            Routeza helps delivery companies, field service teams, cold-chain operators, and local fleets plan,
+            Roviaza helps delivery companies, field service teams, cold-chain operators, and local fleets plan,
             monitor, and repair routes when traffic, cancellations, service windows, capacity, and temperature
             rules collide.
           </p>
@@ -321,7 +321,7 @@ function HomePage() {
           </div>
           <div className="trust-row">
             <span>Built for dynamic EU operations</span>
-            <span>routeza.io ready</span>
+            <span>roviaza.com ready</span>
             <span>Cold-chain aware</span>
           </div>
         </div>
@@ -331,7 +331,7 @@ function HomePage() {
       <section className="section trusted-band" id="trusted-by">
         <div className="trusted-intro">
           <p className="eyebrow">Trusted by operations teams</p>
-          <h2>Routeza fits into fleets that need fewer surprises and faster recovery.</h2>
+          <h2>Roviaza fits into fleets that need fewer surprises and faster recovery.</h2>
         </div>
         <div className="trusted-grid" aria-label="Trusted by companies">
           {trustedCompanies.map((company) => (
@@ -346,7 +346,7 @@ function HomePage() {
         <SectionIntro
           eyebrow="Core products"
           title="Plan the day, watch the day, repair the day."
-          copy="Routeza is split into focused products so teams can start where the operational pain is highest and expand into a complete route operations layer."
+          copy="Roviaza is split into focused products so teams can start where the operational pain is highest and expand into a complete route operations layer."
         />
         <div className="product-grid">
           {products.map((product, index) => (
@@ -392,7 +392,7 @@ function HomePage() {
           <p className="eyebrow">Who it serves</p>
           <h2>Designed for fleets where route plans meet real-world pressure.</h2>
           <p className="section-copy">
-            Routeza treats routes as living operational plans, not static drawings on a map. It keeps constraints
+            Roviaza treats routes as living operational plans, not static drawings on a map. It keeps constraints
             visible when dispatchers need to make quick calls.
           </p>
         </div>
@@ -415,7 +415,7 @@ function HomePage() {
         </div>
         <div>
           <p className="eyebrow">Exception handling</p>
-          <h2>When one stop changes, Routeza shows the cleanest recovery path.</h2>
+          <h2>When one stop changes, Roviaza shows the cleanest recovery path.</h2>
           <p className="section-copy">
             Dispatchers can compare operational scenarios, protect priority stops, preserve cold-chain requirements,
             and push route changes to drivers without turning every exception into a spreadsheet exercise.
@@ -434,7 +434,7 @@ function HomePage() {
         <SectionIntro
           eyebrow="Operational confidence"
           title="Governance for teams that need to explain every route change."
-          copy="Routeza gives dispatch managers the visibility, controls, and decision history needed for high-accountability fleet operations."
+          copy="Roviaza gives dispatch managers the visibility, controls, and decision history needed for high-accountability fleet operations."
         />
         <div className="security-grid">
           {[
@@ -455,7 +455,7 @@ function HomePage() {
         <SectionIntro
           eyebrow="Customer perspective"
           title="A SaaS platform that looks and behaves like part of the daily operations stack."
-          copy="Routeza is positioned as a working system for dispatch, planning, and exception recovery, with a calmer interface and operational trust signals where decision-makers expect them."
+          copy="Roviaza is positioned as a working system for dispatch, planning, and exception recovery, with a calmer interface and operational trust signals where decision-makers expect them."
         />
         <div className="testimonials-grid">
           {testimonials.map((item) => (
@@ -539,7 +539,7 @@ function ProductPage() {
       <section className="section next-products">
         <div>
           <p className="eyebrow">Explore more</p>
-          <h2>Routeza products work best together.</h2>
+          <h2>Roviaza products work best together.</h2>
         </div>
         <div className="mini-product-grid">
           {siblingProducts.map((item) => (
@@ -563,13 +563,13 @@ function DemoPage() {
       <section className="form-page">
         <div className="form-copy">
           <p className="eyebrow">Request demo</p>
-          <h1>See how Routeza handles your real routing day.</h1>
+          <h1>See how Roviaza handles your real routing day.</h1>
           <p>
             Share your fleet profile and the operations team will tailor the walkthrough around your constraints:
             service windows, driver capacity, cold-chain rules, and midday route breaks.
           </p>
           <div className="demo-proof">
-            {["Routeza Plan walkthrough", "Live dispatch board", "Replan scenario simulation"].map((item) => (
+            {["Roviaza Plan walkthrough", "Live dispatch board", "Replan scenario simulation"].map((item) => (
               <span key={item}>
                 <Check size={17} /> {item}
               </span>
@@ -630,7 +630,7 @@ function SignInPage() {
       <section className="signin-page">
         <div className="signin-panel">
           <LogoMark />
-          <h1>Sign in to Routeza</h1>
+          <h1>Sign in to Roviaza</h1>
           <p>Access planning, live control, and replan workspaces.</p>
           <form className="signin-form">
             <label>
@@ -663,7 +663,7 @@ function NotFoundPage() {
     <PageTransition>
       <section className="not-found">
         <h1>Route not found</h1>
-        <p>This page is not part of the Routeza route plan.</p>
+        <p>This page is not part of the Roviaza route plan.</p>
         <Link className="button button-primary" to="/">
           Return home
         </Link>
@@ -690,7 +690,7 @@ function HeroEvidencePanel() {
       <div className="hero-evidence-header">
         <div>
           <span className="hero-panel-label">Operational evidence</span>
-          <strong>Routeza operating snapshot</strong>
+          <strong>Roviaza operating snapshot</strong>
         </div>
         <span className="hero-panel-chip">Warsaw region</span>
       </div>
@@ -796,7 +796,7 @@ function ProductCard({ product, index }) {
         <span>{product.metricLabel}</span>
       </div>
       <Link to={`/products/${product.slug}`}>
-        Explore {product.name.replace("Routeza ", "")} <ArrowRight size={17} />
+        Explore {product.name.replace("Roviaza ", "")} <ArrowRight size={17} />
       </Link>
     </article>
   );
@@ -888,7 +888,7 @@ function CTASection() {
     <section className="cta-section">
       <div>
         <p className="eyebrow">Ready for a better route day?</p>
-        <h2>Bring Routeza into your planning, live dispatch, and replan workflow.</h2>
+        <h2>Bring Roviaza into your planning, live dispatch, and replan workflow.</h2>
       </div>
       <Link className="button button-primary" to="/demo">
         Request demo <ArrowRight size={18} />
@@ -903,12 +903,12 @@ function Footer() {
       <div className="footer-company">
         <Link className="brand footer-brand" to="/">
           <LogoMark />
-          <span>Routeza</span>
+          <span>Roviaza</span>
         </Link>
         <p>Route operations software for delivery fleets, field service teams, and cold-chain operators across Poland and the wider EU market.</p>
         <div className="footer-contact">
           <span><MapPinned size={16} /> Grzybowska 87, 00-844 Warszawa, Poland</span>
-          <a href="mailto:sales@routeza.io"><Mail size={16} /> sales@routeza.io</a>
+          <a href="mailto:sales@roviaza.com"><Mail size={16} /> sales@roviaza.com</a>
           <a href="tel:+48221234567"><Phone size={16} /> +48 22 123 45 67</a>
         </div>
         <div className="footer-socials" aria-label="Social media">
@@ -932,7 +932,7 @@ function Footer() {
         ))}
       </div>
       <div className="footer-bottom">
-        <span>© 2026 Routeza</span>
+        <span>© 2026 Roviaza</span>
         <span>Built for live route operations</span>
       </div>
     </footer>
@@ -943,8 +943,18 @@ function LogoMark() {
   return (
     <svg className="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
       <rect width="48" height="48" rx="13" fill="#0B2E2B" />
-      <path d="M14 14H34L18 35H35" fill="none" stroke="#E9FF6A" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
-      <circle cx="34" cy="14" r="4" fill="#43D6B2" />
+      <path d="M13.5 16.2H22.3" fill="none" stroke="#6F8580" strokeWidth="2.6" strokeLinecap="round" />
+      <path d="M25.7 16.2H34.5" fill="none" stroke="#6F8580" strokeWidth="2.6" strokeLinecap="round" />
+      <path d="M13.5 31.8H20.8" fill="none" stroke="#6F8580" strokeWidth="2.6" strokeLinecap="round" />
+      <path d="M27.2 31.8H34.5" fill="none" stroke="#6F8580" strokeWidth="2.6" strokeLinecap="round" />
+      <path d="M13.5 24H20L24 20.3L28.1 24H34.5" fill="none" stroke="#43D6B2" strokeWidth="3.3" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="13.5" cy="16.2" r="2.3" fill="#F7FBF7" />
+      <circle cx="34.5" cy="16.2" r="2.3" fill="#F7FBF7" />
+      <circle cx="13.5" cy="24" r="2.3" fill="#F7FBF7" />
+      <circle cx="24" cy="20.3" r="2.6" fill="#E9FF6A" />
+      <circle cx="34.5" cy="24" r="2.3" fill="#F7FBF7" />
+      <circle cx="13.5" cy="31.8" r="2.3" fill="#F7FBF7" />
+      <circle cx="34.5" cy="31.8" r="2.3" fill="#F7FBF7" />
     </svg>
   );
 }
