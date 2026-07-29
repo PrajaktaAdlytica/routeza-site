@@ -1,24 +1,29 @@
 {
-  "name": "routeza-site",
+  "name": "roviaza-site",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "video:preview": "remotion studio video/roviaza-entry/index.jsx",
+    "video:render": "remotion render video/roviaza-entry/index.jsx RoviazaEntryFilm public/assets/video/roviaza-entry-film.mp4 --codec=h264 --crf=16 --pixel-format=yuv420p"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^6.0.3",
     "framer-motion": "^12.42.2",
+    "gsap": "^3.15.0",
     "lucide-react": "^1.23.0",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
-    "react-router-dom": "^7.10.1",
+    "react-router-dom": "^7.18.2",
     "typescript": "^5.9.3",
     "vite": "^8.1.3"
   },
   "devDependencies": {
-    "playwright": "^1.61.1"
+    "@remotion/cli": "^4.0.501",
+    "playwright": "^1.61.1",
+    "remotion": "^4.0.501"
   }
 }

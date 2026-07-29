@@ -1,15 +1,5 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="64" height="64" rx="16" fill="#0B2E2B"/>
-  <path d="M18 21.5H29.2" fill="none" stroke="#6F8580" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M34.8 21.5H46" fill="none" stroke="#6F8580" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M18 42.5H27.2" fill="none" stroke="#6F8580" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M36.8 42.5H46" fill="none" stroke="#6F8580" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M18 32H26.3L32 26.8L37.7 32H46" fill="none" stroke="#43D6B2" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="18" cy="21.5" r="3" fill="#F7FBF7"/>
-  <circle cx="46" cy="21.5" r="3" fill="#F7FBF7"/>
-  <circle cx="18" cy="32" r="3" fill="#F7FBF7"/>
-  <circle cx="32" cy="26.8" r="3.5" fill="#E9FF6A"/>
-  <circle cx="46" cy="32" r="3" fill="#F7FBF7"/>
-  <circle cx="18" cy="42.5" r="3" fill="#F7FBF7"/>
-  <circle cx="46" cy="42.5" r="3" fill="#F7FBF7"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="184" height="157" viewBox="0 0 184 157" role="img" aria-label="Roviaza">
+
+  <path fill="#062D2E" d="M 23.466 52.250 C 32.902 77.688, 45.093 110.313, 50.556 124.750 L 60.490 151 73.245 151 L 86 151 86 118 L 86 85 79.500 85 L 73 85 73 73.546 L 73 62.091 79.448 61.796 L 85.896 61.500 76.582 37.779 C 71.460 24.733, 66.567 12.988, 65.709 11.679 C 62.314 6.497, 59.342 6, 31.753 6 L 6.309 6 23.466 52.250 M 132.923 8.923 L 130 11.846 130 78.367 L 130 144.888 132.412 147.694 L 134.823 150.500 156.412 150.805 L 178 151.110 178 78.555 L 178 6 156.923 6 L 135.846 6 132.923 8.923"/>
+  <rect x="74" y="62" width="55" height="23" fill="#B7F34A"/>
 </svg>
