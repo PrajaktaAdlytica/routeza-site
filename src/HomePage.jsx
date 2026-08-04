@@ -5,6 +5,7 @@ import {
   Check,
   CircleAlert,
   Clock3,
+  ExternalLink,
   Quote,
   Send,
   Smartphone,
@@ -94,10 +95,51 @@ export default function HomePage() {
       <IndustryStories />
       <OperatorScenario />
       <TestimonialsChapter />
+      <FundingAnnouncement />
       <PackagingPreview />
       <FAQ items={buyerFaq} />
       <FinalCTA />
     </>
+  );
+}
+
+function FundingAnnouncement() {
+  return (
+    <section id="funding" className="funding-announcement" aria-labelledby="funding-announcement-title">
+      <div className="content-width funding-announcement-inner">
+        <div className="funding-announcement-meta">
+          <p className="eyebrow">Funding announcement</p>
+          <time dateTime="2026-06-09">Jun 9, 2026</time>
+          <span aria-hidden="true" />
+          <strong>Logistics intelligence</strong>
+        </div>
+        <div className="funding-announcement-copy">
+          <h2 id="funding-announcement-title">Roviaza secures $485K in funding from Dlabs.</h2>
+          <p>
+            Roviaza is part of Dlabs’ global portfolio of companies building logistics intelligence for complex
+            operating environments.
+          </p>
+          <div className="funding-announcement-actions">
+            <Link className="text-arrow-link light-link" to="/news/funding-announcement">
+              Read the announcement <ArrowRight size={17} />
+            </Link>
+            <a
+              className="button button-lime"
+              href="https://d-labs-site.vercel.app/companies"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View Dlabs portfolio <ExternalLink size={16} />
+            </a>
+          </div>
+        </div>
+        <div className="funding-record" aria-label="Funding record">
+          <div><span>Backed by</span><strong>Dlabs</strong></div>
+          <div><span>Funding</span><strong>$485K</strong></div>
+          <div><span>Announced</span><strong>Jun 9, 2026</strong></div>
+        </div>
+      </div>
+    </section>
   );
 }
 

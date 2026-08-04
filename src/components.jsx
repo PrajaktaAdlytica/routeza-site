@@ -1,12 +1,16 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import {
   ArrowRight,
+  Building2,
   CalendarClock,
   Check,
   ChevronDown,
   Clock3,
+  ExternalLink,
+  Mail,
   MapPinned,
   Menu,
+  Newspaper,
   ShieldCheck,
   X,
 } from "lucide-react";
@@ -57,9 +61,10 @@ const solutionLinks = Object.values(industries).map((industry) => ({
 }));
 
 const companyLinks = [
-  { label: "About", detail: "Purpose and operating principles", to: "/company/about" },
-  { label: "Security", detail: "Platform boundary and buyer questions", to: "/security" },
-  { label: "Contact", detail: "Sales and general enquiries", to: "/company/contact" },
+  { label: "About", detail: "Purpose and operating principles", to: "/company/about", Icon: Building2 },
+  { label: "Funding announcement", detail: "Jun 9, 2026 · Backed by Dlabs", to: "/news/funding-announcement", Icon: Newspaper },
+  { label: "Security", detail: "Platform boundary and buyer questions", to: "/security", Icon: ShieldCheck },
+  { label: "Contact", detail: "Sales and general enquiries", to: "/company/contact", Icon: Mail },
 ];
 
 export function Navigation() {
@@ -366,7 +371,7 @@ export function FAQ({ items, title = "Serious buyer questions" }) {
 const footerGroups = [
   ["Products", [["Plan", "/products/plan"], ["Live", "/products/live"], ["Replan", "/products/replan"], ["Platform", "/platform"]]],
   ["Solutions", [["Delivery", "/industries/delivery"], ["Field service", "/industries/field-service"], ["Cold chain", "/industries/cold-chain"], ["Local fleets", "/industries/local-fleets"]]],
-  ["Company", [["About", "/company/about"], ["Security", "/security"], ["Contact", "/company/contact"], ["Book a walkthrough", "/demo"]]],
+  ["Company", [["About", "/company/about"], ["Funding announcement", "/news/funding-announcement"], ["Security", "/security"], ["Contact", "/company/contact"], ["Book a walkthrough", "/demo"]]],
   ["Legal", [["Privacy", "/legal/privacy"], ["Terms", "/legal/terms"], ["Cookies", "/legal/cookies"], ["Pricing", "/pricing"]]],
 ];
 
@@ -378,6 +383,21 @@ export function Footer() {
           <BrandLogo reversed />
           <p>The live coordination layer for routes that change after dispatch.</p>
           <span><MapPinned size={16} /> Warszawa, Poland</span>
+          <div className="footer-credibility" aria-label="Roviaza company record">
+            <strong>Backed by Dlabs</strong>
+            <span>$485K funding</span>
+            <div>
+              <a href="https://d-labs-site.vercel.app/companies" target="_blank" rel="noreferrer noopener">
+                Dlabs <ExternalLink size={12} />
+              </a>
+              <a href="https://www.linkedin.com/company/roviaza/" target="_blank" rel="noreferrer noopener">
+                LinkedIn <ExternalLink size={12} />
+              </a>
+              <a href="https://www.crunchbase.com/organization/roviaza" target="_blank" rel="noreferrer noopener">
+                Crunchbase <ExternalLink size={12} />
+              </a>
+            </div>
+          </div>
           <small>Frontend demonstration · Illustrative product data</small>
         </div>
         <div className="footer-links">

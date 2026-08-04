@@ -3,6 +3,7 @@ import {
   ArrowRight,
   Check,
   CheckCircle2,
+  ExternalLink,
   Eye,
   EyeOff,
   LockKeyhole,
@@ -307,6 +308,30 @@ export function AboutPage() {
           <Reveal key={title}><span>{String(index + 1).padStart(2, "0")}</span><h3>{title}</h3><p>{copy}</p></Reveal>
         ))}
       </section>
+      <section className="company-proof content-width" aria-labelledby="company-proof-title">
+        <div className="company-proof-heading">
+          <p className="eyebrow">Company record</p>
+          <h2 id="company-proof-title">Backed for the operating environments where routes do not stay still.</h2>
+        </div>
+        <div className="company-proof-body">
+          <div className="company-proof-stats">
+            <div><span>Investor</span><strong>Backed by Dlabs</strong></div>
+            <div><span>Funding</span><strong>$485K funding</strong></div>
+          </div>
+          <div className="company-proof-links" aria-label="Roviaza company profiles">
+            <Link to="/news/funding-announcement">Funding announcement <ArrowRight size={16} /></Link>
+            <a href="https://d-labs-site.vercel.app/companies" target="_blank" rel="noreferrer noopener">
+              Dlabs portfolio <ExternalLink size={15} />
+            </a>
+            <a href="https://www.linkedin.com/company/roviaza/" target="_blank" rel="noreferrer noopener">
+              LinkedIn <ExternalLink size={15} />
+            </a>
+            <a href="https://www.crunchbase.com/organization/roviaza" target="_blank" rel="noreferrer noopener">
+              Crunchbase <ExternalLink size={15} />
+            </a>
+          </div>
+        </div>
+      </section>
       <section className="status-band">
         <div className="content-width">
           <div>
@@ -319,6 +344,53 @@ export function AboutPage() {
           </DemoNotice>
         </div>
       </section>
+      <FinalCTA />
+    </>
+  );
+}
+
+export function FundingAnnouncementPage() {
+  return (
+    <>
+      <PageHero
+        eyebrow="Funding announcement · Jun 9, 2026"
+        title="Roviaza secures $485K in funding from Dlabs."
+        copy="Roviaza is part of Dlabs’ global portfolio of companies building logistics intelligence for complex operating environments."
+      />
+      <article className="funding-article content-width">
+        <div className="funding-article-aside">
+          <p className="eyebrow">Announcement record</p>
+          <dl>
+            <div><dt>Announcement date</dt><dd><time dateTime="2026-06-09">Jun 9, 2026</time></dd></div>
+            <div><dt>Sector</dt><dd>Logistics intelligence</dd></div>
+            <div><dt>Investor</dt><dd>Dlabs</dd></div>
+            <div><dt>Funding</dt><dd>$485K</dd></div>
+          </dl>
+        </div>
+        <div className="funding-article-body">
+          <p className="funding-article-lead">Roviaza has secured $485K in funding from Dlabs.</p>
+          <p>
+            Roviaza is part of Dlabs’ global portfolio of companies building logistics intelligence for complex
+            operating environments.
+          </p>
+          <div className="funding-article-actions">
+            <a
+              className="button button-dark"
+              href="https://d-labs-site.vercel.app/companies"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              View Dlabs portfolio <ExternalLink size={16} />
+            </a>
+            <a href="https://www.linkedin.com/company/roviaza/" target="_blank" rel="noreferrer noopener">
+              Roviaza on LinkedIn <ExternalLink size={15} />
+            </a>
+            <a href="https://www.crunchbase.com/organization/roviaza" target="_blank" rel="noreferrer noopener">
+              Roviaza on Crunchbase <ExternalLink size={15} />
+            </a>
+          </div>
+        </div>
+      </article>
       <FinalCTA />
     </>
   );

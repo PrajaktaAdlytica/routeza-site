@@ -7,6 +7,7 @@ import {
   AboutPage,
   ContactPage,
   DemoPage,
+  FundingAnnouncementPage,
   IndustryPage,
   LegalPage,
   NotFoundPage,
@@ -30,6 +31,7 @@ const metadata = {
   "/industries/local-fleets": ["Roviaza for Local Fleets | Practical Route Control", "Give regional operators a calmer way to plan, monitor, and recover mixed fleets during the day."],
   "/company/about": ["About Roviaza | Human-controlled logistics AI", "Learn why Roviaza focuses on the controlled decision between route disruption and recovery."],
   "/company/contact": ["Contact Roviaza", "Start a conversation about delivery, field service, cold-chain, or local fleet operations."],
+  "/news/funding-announcement": ["Roviaza secures $485K in funding from Dlabs", "Roviaza is part of Dlabs’ global portfolio of companies building logistics intelligence for complex operating environments."],
   "/demo": ["Book a Roviaza operational walkthrough", "Show Roviaza where your route day breaks and prepare a product walkthrough around the operation."],
   "/sign-in": ["Sign in | Roviaza", "Access the Roviaza route operations workspace."],
   "/security": ["Security | Roviaza", "Review the production security and data-handling questions Roviaza must verify before launch."],
@@ -86,6 +88,7 @@ export default function App() {
               <Route path="/industries/:slug" element={<IndustryPage />} />
               <Route path="/company/about" element={<AboutPage />} />
               <Route path="/company/contact" element={<ContactPage />} />
+              <Route path="/news/funding-announcement" element={<FundingAnnouncementPage />} />
               <Route path="/demo" element={<DemoPage />} />
               <Route path="/sign-in" element={<SignInPage />} />
               <Route path="/security" element={<SecurityPage />} />
@@ -125,6 +128,9 @@ function ScrollRevelation() {
       ".pricing-table-row",
       ".principles-ledger > div",
       ".security-topics > div",
+      ".funding-record > div",
+      ".company-proof-stats > div",
+      ".funding-article-aside dl > div",
     ];
     const items = [...document.querySelectorAll(itemSelectors.join(","))];
 
