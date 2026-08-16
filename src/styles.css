@@ -1934,12 +1934,14 @@ p {
   color: rgba(255, 255, 255, 0.68);
 }
 
-.footer-brand-column > span {
+.footer-address {
   display: inline-flex;
   gap: 8px;
-  align-items: center;
+  align-items: flex-start;
   color: rgba(255, 255, 255, 0.74);
   font-size: 0.82rem;
+  font-style: normal;
+  line-height: 1.55;
 }
 
 .footer-brand-column > small {

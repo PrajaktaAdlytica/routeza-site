@@ -382,7 +382,15 @@ export function Footer() {
         <div className="footer-brand-column">
           <BrandLogo reversed />
           <p>The live coordination layer for routes that change after dispatch.</p>
-          <span><MapPinned size={16} /> Warszawa, Poland</span>
+          <address className="footer-address">
+            <MapPinned size={16} />
+            <span>
+              Strada Queen, 9<br />
+              Milan, LOM 20136<br />
+              Italy<br />
+              Phone: +39 079 628 4787
+            </span>
+          </address>
           <div className="footer-credibility" aria-label="Roviaza company record">
             <strong>Backed by Dlabs</strong>
             <span>$485K funding</span>
