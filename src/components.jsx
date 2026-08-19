@@ -385,10 +385,11 @@ export function Footer() {
           <address className="footer-address">
             <MapPinned size={16} />
             <span>
-              Strada Queen, 9<br />
-              Milan, LOM 20136<br />
-              Italy<br />
-              Phone: +39 079 628 4787
+              4573 Devon Drive<br />
+              Tucson, AZ 85713<br />
+              United States<br />
+              Phone: (520) 614-6471<br />
+              Lat: 32.2154, Lng: -110.9708
             </span>
           </address>
           <div className="footer-credibility" aria-label="Roviaza company record">
