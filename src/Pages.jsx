@@ -290,7 +290,7 @@ export function AboutPage() {
       <PageHero
         eyebrow="About Roviaza"
         title="Routes change. Operations still need a feasible next step."
-        copy="Roviaza is a Poland and EU-focused logistics AI product concept for teams whose morning route plans have to survive real operational disruption."
+          copy="Roviaza is a logistics AI product concept for teams whose morning route plans have to survive real operational disruption."
       />
       <section className="about-purpose content-width">
         <div>
@@ -598,7 +598,7 @@ export function SecurityPage() {
       </section>
       <section className="security-disclosure content-width">
         <MapPinned size={22} />
-        <div><strong>Poland and EU product focus</strong><p>Hosting location and data residency will only be stated after the production architecture is approved.</p></div>
+            <div><strong>Operational product focus</strong><p>Hosting location and data residency will only be stated after the production architecture is approved.</p></div>
       </section>
       <FinalCTA />
     </>

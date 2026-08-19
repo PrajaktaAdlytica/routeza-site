@@ -420,7 +420,7 @@ export function Footer() {
       </div>
       <div className="footer-utility content-width">
         <span>© 2026 Roviaza</span>
-        <span>Poland and European Union</span>
+        <span>Global operations</span>
         <span>roviaza.com</span>
       </div>
     </footer>

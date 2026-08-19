@@ -211,7 +211,7 @@ function EntryPortal() {
       <div className="entry-film-shade" />
       <div className="entry-content content-width">
         <div className="entry-copy">
-          <p className="eyebrow">Poland · Europe · Live route operations</p>
+          <p className="eyebrow">Live route operations for distribution teams</p>
           <h1 id="entry-title">Roviaza</h1>
           <h2>The route changes. The operation responds.</h2>
           <p>
@@ -261,7 +261,7 @@ function DocumentaryHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.72, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="eyebrow">Live route operations · Poland and Europe</p>
+          <p className="eyebrow">Live route operations for operations teams</p>
           <h2 className="documentary-title">
             <span>The day changes.</span>
             <span>Your team stays ahead.</span>

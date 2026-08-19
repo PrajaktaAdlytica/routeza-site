@@ -19,7 +19,7 @@ import {
 } from "./Pages.jsx";
 
 const metadata = {
-  "/": ["Roviaza | Live route operations for Poland and Europe", "Plan feasible routes, see disruption early, and compare recovery scenarios with Roviaza’s human-controlled logistics AI platform."],
+  "/": ["Roviaza | Live route operations", "Plan feasible routes, see disruption early, and compare recovery scenarios with Roviaza’s human-controlled logistics AI platform."],
   "/products/plan": ["Roviaza Plan | Constraint-aware route planning", "Build feasible route days around service windows, capacity, drivers, vehicles, and operational constraints."],
   "/products/live": ["Roviaza Live | Live route health and exception visibility", "See route health, disruption, downstream impact, and the operational decisions that need attention."],
   "/products/replan": ["Roviaza Replan | Scenario-based route recovery", "Compare feasible recovery scenarios, approve a response, and publish route changes with decision history."],
